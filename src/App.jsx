@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './style';
 
 import { Navbar, Hero, Business, Billing, Clients, CTA, Footer } from "./components";
+import { Toaster } from 'react-hot-toast';
 
 const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
+      <Toaster></Toaster>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />

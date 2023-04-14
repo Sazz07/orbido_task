@@ -23,6 +23,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import dribble from './dribble.png';
+import netflix from './netflix.png';
+import manulife from './manulife.png';
+import paypal from './paypal.png';
+import polygon2 from './Polygon 2.svg';
+import polygon4 from './Polygon 4.svg';
 
 export {
   airbnb,
@@ -50,4 +56,10 @@ export {
   people01,
   people02,
   people03,
+  dribble,
+  netflix,
+  manulife,
+  polygon2,
+  polygon4,
+  paypal
 };
